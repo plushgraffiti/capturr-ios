@@ -4,6 +4,7 @@ Native iOS quick capture for Roam Research. It prioritizes speed and offline rel
 - Offline outbox with background sync
 - Send to Daily Notes or a specific page
 - Set up blocks, tags and timestamps (all optional)
+- Natively share URLs and text from other apps to your graph
 - Privacy-first: no analytics, no tracking, no data collection
 - Free forever
 
