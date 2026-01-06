@@ -18,6 +18,15 @@ Not affiliated with Roam Research.
 https://apps.apple.com/app/capturr/id6751626906
 
 ## Recent Updates
+
+### v1.5 (in Beta)
+#### Manage TODO items via CAPTURR
+- Uses Backend API, not available for encrypted graphs
+- Set filters and timelines for TODO queries
+- Display TODO, parent block and quick access to complete
+- Show badge with outstanding TODO count for filter
+- Join TestFlight beta here: https://testflight.apple.com/join/yWtST3Ev
+
 ### v1.4.1
 - Fixed a bug with voice capture sending concatenated in-progress transcription
 - Fixed rare occurrence of duplicate syncs when app is backgrounded on cellular
