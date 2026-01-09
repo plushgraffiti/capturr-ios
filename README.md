@@ -25,7 +25,7 @@ https://apps.apple.com/app/capturr/id6751626906
 - Set filters and timelines for TODO queries
 - Display TODO, parent block and quick access to complete
 - Show badge with outstanding TODO count for filter
-- Join TestFlight beta here: https://testflight.apple.com/join/yWtST3Ev
+- Join TestFlight beta here: https://testflight.apple.com/join/eXU8W5xB
 
 ### v1.4.1
 - Fixed a bug with voice capture sending concatenated in-progress transcription
