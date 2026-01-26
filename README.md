@@ -1,5 +1,6 @@
 # CAPTURR
 CAPTURR is a native iOS quick capture app for Roam Research. It prioritizes speed and offline reliability.
+https://apps.apple.com/app/capturr/id6751626906
 
 ## Quick Capture
 - Fast capture: note, TODO, voice or scan → your graph
