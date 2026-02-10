@@ -8,10 +8,11 @@ https://apps.apple.com/app/capturr/id6751626906
 - Offline outbox with background sync
 - Send to Daily Notes or a specific page
 - Set up blocks, tags and timestamps (all optional)
+- Supports multiple graphs with ability to quickly switch between them
 - Works with Encrypted Graphs
 
 ## Native iOS Integration
-- Natively share URLs and text from other apps to your graph
+- Natively share URLs and text from other apps to your graph (and Roam Reader)
 - Widgets (for Home & Lock Screen) allow quick access to a capture method
 
 ## Managing TODOs
@@ -29,6 +30,11 @@ https://apps.apple.com/app/capturr/id6751626906
 ---
 
 ## Recent Updates
+
+### v1.6
+- Added multiple graph support for quick capture
+- Added ability to share URLs directly to Roam Reader
+- Added clear history options (all, 30/60/90 day)
 
 ### v1.5
 - Added Manage TODOs functionality (enable via Settings, not available for Encrypted Graphs)
