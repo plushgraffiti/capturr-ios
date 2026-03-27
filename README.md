@@ -14,10 +14,13 @@ https://apps.apple.com/app/capturr/id6751626906
 ## Native iOS Integration
 - Natively share URLs and text from other apps to your graph (and Roam Reader)
 - Widgets (for Home & Lock Screen) allow quick access to a capture method
+- Support for capturing notes, todos, etc via intents and Apple Shortcuts
+- Quick add via Lock Screen, Action Button, Control Centre etc
 
 ## Managing TODOs
 - Todo Management: Sync TODOs into CAPTURR filtering by include/exclude tags
 - Add new TODO items directly into the view
+- Build out Sections for TODOs with custom filters
 - Show a badge for outstanding items
 - Not available for Encrypted Graphs
 
@@ -30,6 +33,10 @@ https://apps.apple.com/app/capturr/id6751626906
 ---
 
 ## Recent Updates
+
+### v1.7
+- You can now add Sections to your TODOs
+- Capture methods and sync status now available for Apple Shortcuts
 
 ### v1.6
 - Added multiple graph support for quick capture
