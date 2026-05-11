@@ -34,6 +34,15 @@ https://apps.apple.com/app/capturr/id6751626906
 
 ## Recent Updates
 
+### v1.8.1
+- Background sync fix to allow sending to graph without opening the app
+- Wrapping long line lengths for todo items
+
+### v1.8
+- Write Capture now has blocks, indentation and basic formatting options
+- Separated out Write and Todo Shortcut intents to mape actions easier
+- Long press actions added to CAPTURR icon (write, todo, scan, voice)
+
 ### v1.7
 - You can now add Sections to your TODOs
 - Capture methods and sync status now available for Apple Shortcuts
