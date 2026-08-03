@@ -1,43 +1,100 @@
-# Privacy Policy
+# CAPTURR Privacy Policy
 
-This privacy policy applies to the CAPTURR app (hereby referred to as "Application") for mobile devices that was created by Paul Griffiths (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+Last updated: August 3rd, 2026
 
-**What information does the Application obtain and how is it used?**
+CAPTURR is a privacy-focused iOS application for capturing content to Roam Research. CAPTURR does not operate a backend service and does not collect app data for its developer, Paul Griffiths.
 
-The Application does not obtain any information when you download and use it. Registration is not required to use the Application.
+In normal use, your information stays on your device or is sent directly to Roam Research at your request so that CAPTURR can perform its core function.
 
-**Does the Application collect precise real time location information of the device?**
+## What CAPTURR does not collect
 
-This Application does not collect precise information about the location of your mobile device.
+CAPTURR does not include:
 
-**Do third parties see and/or have access to information obtained by the Application?**
+- Analytics or behavioural tracking.
+- Advertising or advertising identifiers.
+- Third-party analytics, tracking, or advertising SDKs.
+- A developer-operated account system, database, or server.
+- Remote logging or telemetry sent to the developer.
+- Location, contacts, or browsing-history collection.
 
-Since the Application does not collect any information, no data is shared with third parties.
+The Application uses Apple's system logging for local diagnostic messages. CAPTURR does not transmit those logs to the developer. If you choose to share diagnostics with Apple, Apple handles that information under its own terms and privacy settings.
 
-**What are my opt-out rights?**
+## Information stored on your device
 
-You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+CAPTURR stores the information required to provide its features locally on your device. Depending on the features you use, this can include:
 
-**Children**
+- Roam Research graph names and API credentials.
+- Notes, TODOs, scans, voice transcripts, shared text, and URLs that you capture.
+- Pending, successful, and failed capture history.
+- Locally cached TODO content retrieved from your Roam Research graph.
+- App settings, capture destinations, tags, and display preferences.
+- Audio awaiting transcription or retained after an unsuccessful transcription.
+- Link titles, descriptions, and image URLs obtained for Roam Reader captures.
 
-The Application is not used to knowingly solicit data from or market to children under the age of 13.
+Roam Research API credentials are stored in the iOS Keychain. Other app data is stored in CAPTURR's local app-group container so it can be used by the main app, widgets, shortcuts, and share extension. CAPTURR does not use CloudKit or its own cloud-storage service for this information.
 
-The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourage parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider (tenth_tickles.9x@icloud.com) so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries we may allow your parent or guardian to do so on your behalf).
+## Information sent to Roam Research
 
-**Security**
+CAPTURR sends information directly to Roam Research when you use a feature that requires access to your graph. This is the core purpose of the Application.
 
-The Service Provider is concerned about safeguarding the confidentiality of your information. However, since the Application does not collect any information, there is no risk of your data being accessed by unauthorized individuals.
+Depending on the feature, the information sent can include:
 
-**Changes**
+- Your graph name and the relevant Roam Research API credential.
+- Content you have chosen to capture, including text, TODOs, transcripts, scanned text, URLs, and link metadata.
+- Capture destinations, tags, timestamps, or block identifiers needed to perform the requested action.
+- Queries required to retrieve and manage TODO content from your graph.
 
-This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to their Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+These requests are sent over HTTPS to Roam Research's APIs. Information received or stored by Roam Research is governed by your relationship with Roam Research and its own terms and privacy practices. CAPTURR and Paul Griffiths are not affiliated with Roam Research and do not receive a copy of this information.
 
-This privacy policy is effective as of 2025-08-30
+You control whether CAPTURR connects to Roam Research by choosing whether to provide API credentials and use features that communicate with your graph.
 
-**Your Consent**
+## Webpage metadata
 
-By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by the Service Provider.
+If you enable Roam Reader support and share a web link, CAPTURR may request that webpage directly to obtain its title, description, and image metadata. The website receives an ordinary web request and may see information normally associated with such a request, including your IP address, user agent, and the requested URL.
 
-**Contact Us**
+The website does not receive your Roam Research API credential, graph information, CAPTURR history, or other captures. Any metadata obtained is processed locally and may then be sent to your Roam Research graph as part of the capture you requested. The website's own privacy policy applies to its handling of the request.
 
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at tenth_tickles.9x@icloud.com.
+## Camera, microphone, speech, and Watch features
+
+CAPTURR requests access to protected device features only when they are required for a feature you choose to use.
+
+- Document scanning and text recognition are performed on-device.
+- Voice recordings and speech transcription are processed on-device. CAPTURR may download language models supplied by Apple, but captured voice audio is not sent to Apple for transcription.
+- Audio captured on a paired Apple Watch may be transferred to your iPhone using Apple's WatchConnectivity system for on-device transcription and delivery to Roam Research.
+
+You can manage camera, microphone, and speech-recognition permissions through iOS Settings.
+
+## Retention and deletion
+
+CAPTURR retains local information only as needed to provide the features you use:
+
+- Capture history remains on-device until you delete individual entries or use CAPTURR's history-clearing options.
+- Locally cached TODO content is removed when TODO management is disabled and is otherwise refreshed as you use the feature.
+- Audio is normally deleted after successful transcription. Audio associated with a failed or interrupted transcription may remain so that you can retry or delete the history entry.
+- Credentials remain in the iOS Keychain until they are replaced or removed. Deleting an additional graph from CAPTURR also removes its stored credential.
+
+You can revoke any CAPTURR API credential through Roam Research at any time. Revoking a credential prevents it from being used even if a copy remains on the device.
+
+Deleting CAPTURR removes its local app container in accordance with iOS behaviour. Because Keychain retention is controlled by iOS, revoke your Roam Research credentials separately to ensure they cannot be used after uninstalling CAPTURR or disposing of your device.
+
+CAPTURR cannot delete content that has already been sent to your Roam Research graph; manage that content and your Roam account directly through Roam Research.
+
+Because CAPTURR does not operate a user account or backend database, there is no server-side CAPTURR account or capture history for the developer to delete.
+
+## Children
+
+CAPTURR is not directed at children and the developer does not knowingly collect personal information from children through the Application.
+
+## Security
+
+CAPTURR uses platform security features including the iOS Keychain and encrypted HTTPS connections. No method of storage or transmission is completely secure, so you are responsible for protecting your device, Roam Research account, and API credentials.
+
+If you believe an API credential has been exposed, revoke or rotate it promptly through Roam Research.
+
+## Changes to this policy
+
+This policy may be updated when CAPTURR's features or data practices change. The current version will be published in this repository with its effective date shown above.
+
+## Contact
+
+For privacy questions or requests concerning information you have sent directly to the developer, contact Paul Griffiths at tenth_tickles.9x@icloud.com.
