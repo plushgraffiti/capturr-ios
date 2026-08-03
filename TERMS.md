@@ -1,29 +1,88 @@
-# Terms & Conditions  
+# CAPTURR Terms of Use
 
-These terms and conditions apply to the CAPTURR app (hereby referred to as "Application") for mobile devices that was created by Paul Griffiths (hereby referred to as "Service Provider") as a Free service.
+Last updated: August 3rd, 2026
 
-Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application. Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.
+These Terms of Use apply to the official CAPTURR application distributed by Paul Griffiths through the [Apple App Store](https://apps.apple.com/us/app/capturr-for-roam-research/id6751626906), referred to below as the "Application".
 
-The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you.
+By downloading or using the Application, you agree to these terms. If you do not agree, do not use the Application.
 
-The Application stores and processes personal data that you have provided to the Service Provider in order to provide the Service. It is your responsibility to maintain the security of your phone and access to the Application. The Service Provider strongly advise against jailbreaking or rooting your phone, which involves removing software restrictions and limitations imposed by the official operating system of your device. Such actions could expose your phone to malware, viruses, malicious programs, compromise your phone's security features, and may result in the Application not functioning correctly or at all.
+## Open-source licence
 
-Please be aware that the Service Provider does not assume responsibility for certain aspects. Some functions of the Application require an active internet connection, which can be Wi-Fi or provided by your mobile network provider. The Service Provider cannot be held responsible if the Application does not function at full capacity due to lack of access to Wi-Fi or if you have exhausted your data allowance.
+The source code for CAPTURR is made available separately under the [GNU General Public License v3.0](LICENSE). Nothing in these terms limits the rights granted by that licence for material it covers. If these terms conflict with an applicable open-source licence, the open-source licence controls for that material.
 
-If you are using the application outside of a Wi-Fi area, please be aware that your mobile network provider's agreement terms still apply. Consequently, you may incur charges from your mobile provider for data usage during the connection to the application, or other third-party charges. By using the application, you accept responsibility for any such charges, including roaming data charges if you use the application outside of your home territory (i.e., region or country) without disabling data roaming. If you are not the bill payer for the device on which you are using the application, they assume that you have obtained permission from the bill payer.
+The CAPTURR name, icon, and associated branding are addressed separately in the [CAPTURR Trademark Policy](TRADEMARKS.md).
 
-Similarly, the Service Provider cannot always assume responsibility for your usage of the application. For instance, it is your responsibility to ensure that your device remains charged. If your device runs out of battery and you are unable to access the Service, the Service Provider cannot be held responsible.
+## About the Application
 
-In terms of the Service Provider's responsibility for your use of the application, it is important to note that while they strive to ensure that it is updated and accurate at all times, they do rely on third parties to provide information to them so that they can make it available to you. The Service Provider accepts no liability for any loss, direct or indirect, that you experience as a result of relying entirely on this functionality of the application.
+CAPTURR is a free iOS application for capturing content to Roam Research. It can store captures locally for later delivery and, when configured by you, send content to or retrieve content from your Roam Research graph.
 
-The Service Provider may wish to update the application at some point. The application is currently available as per the requirements for the operating system (and for any additional systems they decide to extend the availability of the application to) may change, and you will need to download the updates if you want to continue using the application. The Service Provider does not guarantee that it will always update the application so that it is relevant to you and/or compatible with the particular operating system version installed on your device. However, you agree to always accept updates to the application when offered to you. The Service Provider may also wish to cease providing the application and may terminate its use at any time without providing termination notice to you. Unless they inform you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the application, and (if necessary) delete it from your device.
+CAPTURR is an independent application and is not affiliated with, endorsed by, or sponsored by Roam Research or Apple.
 
-**Changes to These Terms and Conditions**
+## Your accounts, credentials, and content
 
-The Service Provider may periodically update their Terms and Conditions. Therefore, you are advised to review this page regularly for any changes. The Service Provider will notify you of any changes by posting the new Terms and Conditions on this page.
+You are responsible for:
 
-These terms and conditions are effective as of 2025-08-30
+- Providing and protecting your own Roam Research API credentials.
+- Maintaining the security of your device and Roam Research account.
+- Ensuring that you have the right to capture, store, and transmit any content you use with the Application.
+- Reviewing captures that are important to you and confirming that they have reached their intended destination.
+- Complying with the terms and policies that apply to your Roam Research account and any other third-party service you use.
 
-**Contact Us**
+If you believe an API token has been exposed, revoke or rotate it promptly through Roam Research.
 
-If you have any questions or suggestions about the Terms and Conditions, please do not hesitate to contact the Service Provider at tenth_tickles.9x@icloud.com.
+The Application's handling of information is described in the [Privacy Policy](PRIVACY.md).
+
+## Acceptable use
+
+You must not use the Application to:
+
+- Break applicable law or infringe another person's rights.
+- Access, modify, or transmit data without authorisation.
+- Introduce malicious code or deliberately disrupt the Application or a third-party service.
+- Misrepresent an unofficial build or modified version as the official CAPTURR application.
+
+These restrictions do not limit activities permitted by the GPLv3 for the source code or lawful security research conducted in accordance with [SECURITY.md](SECURITY.md).
+
+## Third-party services
+
+Some Application features depend on services supplied by others, including Apple, Roam Research, network providers, and websites from which you choose to capture content. Those services may have their own terms, privacy practices, availability, and charges.
+
+Paul Griffiths does not control those services and is not responsible for their operation, availability, security, or changes. CAPTURR cannot guarantee that a third-party API or integration will remain available or compatible.
+
+You are responsible for any internet, mobile data, Roam Research subscription, or other third-party charges associated with your use of the Application.
+
+## Availability and changes
+
+The Application is provided free of charge. Features may be added, changed, suspended, or removed, and support for particular devices or operating-system versions may end.
+
+There is no guarantee that the Application will always be available, uninterrupted, error-free, or compatible with future versions of iOS, Roam Research, or other third-party services.
+
+Paul Griffiths may discontinue the Application at any time. You may stop using it at any time by deleting it from your device and revoking any credentials you supplied to it.
+
+## No warranty
+
+To the fullest extent permitted by applicable law, the Application is provided "as is" and "as available", without warranties of any kind, whether express or implied.
+
+You should not rely on CAPTURR as the only copy of important information. Network failures, device restrictions, third-party service failures, software defects, or configuration problems may delay or prevent a capture from being delivered.
+
+## Limitation of liability
+
+To the fullest extent permitted by applicable law, Paul Griffiths will not be liable for indirect, incidental, special, consequential, or punitive loss arising from use of, or inability to use, the Application. This includes loss of data, content, access, opportunity, or revenue.
+
+Nothing in these terms excludes or limits liability that cannot lawfully be excluded or limited, or affects any statutory consumer rights that apply to you.
+
+## Changes to these terms
+
+These terms may be updated to reflect changes to the Application, the law, or third-party services. The current version will be published in this repository with its effective date shown above.
+
+Your continued use of the Application after updated terms take effect constitutes acceptance of those terms, where permitted by applicable law.
+
+## Governing law
+
+These terms, and any dispute arising from them or from use of the Application, are governed by the laws of Spain.
+
+If you use the Application as a consumer, you keep the benefit of any mandatory consumer protections of the country where you normally live, and nothing in this section deprives you of those protections or of any right to bring proceedings in your local courts where applicable law allows it.
+
+## Contact
+
+For questions about these terms, contact Paul Griffiths at tenth_tickles.9x@icloud.com.
