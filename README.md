@@ -64,7 +64,7 @@ CAPTURR has no external package dependencies. It is built with Swift, SwiftUI, S
 
 ## Source availability
 
-CAPTURR 2.0 is the first open-source release. Its source will be published in this repository alongside the CAPTURR 2.0 App Store release.
+CAPTURR 2.0 is the first open-source release. Its source is available in this repository.
 
 The source code is licensed under the [GNU General Public License v3.0](LICENSE). The CAPTURR name, icon, and branding are covered separately by the [CAPTURR Trademark Policy](TRADEMARKS.md).
 
@@ -72,7 +72,7 @@ Only the version published by Paul Griffiths through the Apple App Store is the 
 
 ## Building CAPTURR
 
-After the 2.0 source release:
+To build CAPTURR:
 
 1. Clone the repository and open `Capturr.xcodeproj` in Xcode 26 or later.
 2. Assign your own development team to the app and extension targets.
@@ -127,6 +127,14 @@ Bug reports and feature requests are welcome through [GitHub Issues](https://git
 External code contributions and pull requests are not currently accepted. See [CONTRIBUTING.md](CONTRIBUTING.md) for the complete policy.
 
 ## Version history
+
+### v2.0
+
+- Added voice capture from Apple Watch with private on-device transcription on iPhone
+- Added audio-file import with private on-device transcription
+- Added more flexible capture timestamps
+- Improved the reliability of background delivery
+- Published the CAPTURR source under GPLv3
 
 ### v1.8.2
 

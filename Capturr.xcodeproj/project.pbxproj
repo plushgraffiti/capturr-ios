@@ -1,0 +1,1217 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0000000000000000000001 /* CapturrWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000004 /* CapturrWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB0000000000000000000010 /* CapturrIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = DAF2528A2E7EE32C0047BCD0 /* CapturrIcon.icon */; };
+		AC0000000000000000000001 /* CapturrWatchWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000006 /* CapturrWatchWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AC0000000000000000000002 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9668722EA5656F00B2A928 /* WidgetKit.framework */; };
+		AC0000000000000000000003 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9668742EA5656F00B2A928 /* SwiftUI.framework */; };
+		DA9668732EA5656F00B2A928 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9668722EA5656F00B2A928 /* WidgetKit.framework */; };
+		DA9668752EA5656F00B2A928 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9668742EA5656F00B2A928 /* SwiftUI.framework */; };
+		DA9668822EA5657000B2A928 /* CapturrWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DA9668702EA5656F00B2A928 /* CapturrWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DAF2526E2E7C65790047BCD0 /* Sharing.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DAF252642E7C65790047BCD0 /* Sharing.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DAF2528B2E7EE32C0047BCD0 /* CapturrIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = DAF2528A2E7EE32C0047BCD0 /* CapturrIcon.icon */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB0000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF4A9382E602AC20001D672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB0000000000000000000007;
+			remoteInfo = CapturrWatch;
+		};
+		AC0000000000000000000004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF4A9382E602AC20001D672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC000000000000000000000A;
+			remoteInfo = CapturrWatchWidgetsExtension;
+		};
+		CB1000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF4A9382E602AC20001D672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF4A93F2E602AC20001D672;
+			remoteInfo = Capturr;
+		};
+		DA9668802EA5657000B2A928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF4A9382E602AC20001D672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA96686F2EA5656F00B2A928;
+			remoteInfo = CapturrWidgetsExtension;
+		};
+		DAF2526C2E7C65790047BCD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF4A9382E602AC20001D672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF252632E7C65790047BCD0;
+			remoteInfo = Sharing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB0000000000000000000003 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AB0000000000000000000001 /* CapturrWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0000000000000000000005 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AC0000000000000000000001 /* CapturrWatchWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF2526F2E7C65790047BCD0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DA9668822EA5657000B2A928 /* CapturrWidgetsExtension.appex in Embed Foundation Extensions */,
+				DAF2526E2E7C65790047BCD0 /* Sharing.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB0000000000000000000004 /* CapturrWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapturrWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0000000000000000000006 /* CapturrWatchWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CapturrWatchWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1000000000000000000001 /* CapturrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapturrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9668702EA5656F00B2A928 /* CapturrWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CapturrWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9668722EA5656F00B2A928 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DA9668742EA5656F00B2A928 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DAF252642E7C65790047BCD0 /* Sharing.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Sharing.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF2528A2E7EE32C0047BCD0 /* CapturrIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = CapturrIcon.icon; sourceTree = "<group>"; };
+		DAF4A9402E602AC20001D672 /* Capturr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capturr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AB0000000000000000000006 /* Exceptions for "CapturrWatch" folder in "CapturrWatch" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AB0000000000000000000007 /* CapturrWatch */;
+		};
+		AC0000000000000000000007 /* Exceptions for "CapturrWatchWidgets" folder in "CapturrWatchWidgetsExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AC000000000000000000000A /* CapturrWatchWidgetsExtension */;
+		};
+		DA9668862EA5657000B2A928 /* Exceptions for "CapturrWidgets" folder in "CapturrWidgetsExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DA96686F2EA5656F00B2A928 /* CapturrWidgetsExtension */;
+		};
+		DAF252732E7C65790047BCD0 /* Exceptions for "Sharing" folder in "Sharing" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DAF252632E7C65790047BCD0 /* Sharing */;
+		};
+		DAF252792E7DCA570047BCD0 /* Exceptions for "Capturr" folder in "Sharing" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/OutboxItem.swift,
+				Models/TodoItem.swift,
+				Models/TodoSection.swift,
+				Models/UserProfile.swift,
+				Services/Support/BackgroundSyncScheduler.swift,
+				Services/Support/Constants.swift,
+				Services/Support/SharedModelContainer.swift,
+			);
+			target = DAF252632E7C65790047BCD0 /* Sharing */;
+		};
+		DAF4AB2C2E605E280001D672 /* Exceptions for "Capturr" folder in "Capturr" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DAF4A93F2E602AC20001D672 /* Capturr */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AB0000000000000000000005 /* CapturrWatch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AB0000000000000000000006 /* Exceptions for "CapturrWatch" folder in "CapturrWatch" target */,
+			);
+			path = CapturrWatch;
+			sourceTree = "<group>";
+		};
+		AC0000000000000000000008 /* CapturrWatchWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AC0000000000000000000007 /* Exceptions for "CapturrWatchWidgets" folder in "CapturrWatchWidgetsExtension" target */,
+			);
+			path = CapturrWatchWidgets;
+			sourceTree = "<group>";
+		};
+		CB1000000000000000000003 /* CapturrTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CapturrTests;
+			sourceTree = "<group>";
+		};
+		DA9668762EA5656F00B2A928 /* CapturrWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DA9668862EA5657000B2A928 /* Exceptions for "CapturrWidgets" folder in "CapturrWidgetsExtension" target */,
+			);
+			path = CapturrWidgets;
+			sourceTree = "<group>";
+		};
+		DAF252652E7C65790047BCD0 /* Sharing */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DAF252732E7C65790047BCD0 /* Exceptions for "Sharing" folder in "Sharing" target */,
+			);
+			path = Sharing;
+			sourceTree = "<group>";
+		};
+		DAF4A9422E602AC20001D672 /* Capturr */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DAF4AB2C2E605E280001D672 /* Exceptions for "Capturr" folder in "Capturr" target */,
+				DAF252792E7DCA570047BCD0 /* Exceptions for "Capturr" folder in "Sharing" target */,
+			);
+			path = Capturr;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB0000000000000000000009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0000000000000000000009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0000000000000000000003 /* SwiftUI.framework in Frameworks */,
+				AC0000000000000000000002 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1000000000000000000006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA96686D2EA5656F00B2A928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9668752EA5656F00B2A928 /* SwiftUI.framework in Frameworks */,
+				DA9668732EA5656F00B2A928 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF252612E7C65790047BCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF4A93D2E602AC20001D672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA9668712EA5656F00B2A928 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA9668722EA5656F00B2A928 /* WidgetKit.framework */,
+				DA9668742EA5656F00B2A928 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAF4A9372E602AC20001D672 = {
+			isa = PBXGroup;
+			children = (
+				DAF2528A2E7EE32C0047BCD0 /* CapturrIcon.icon */,
+				DAF4A9422E602AC20001D672 /* Capturr */,
+				DAF252652E7C65790047BCD0 /* Sharing */,
+				DA9668762EA5656F00B2A928 /* CapturrWidgets */,
+				AB0000000000000000000005 /* CapturrWatch */,
+				AC0000000000000000000008 /* CapturrWatchWidgets */,
+				CB1000000000000000000003 /* CapturrTests */,
+				DA9668712EA5656F00B2A928 /* Frameworks */,
+				DAF4A9412E602AC20001D672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF4A9412E602AC20001D672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF4A9402E602AC20001D672 /* Capturr.app */,
+				DAF252642E7C65790047BCD0 /* Sharing.appex */,
+				DA9668702EA5656F00B2A928 /* CapturrWidgetsExtension.appex */,
+				AB0000000000000000000004 /* CapturrWatch.app */,
+				AC0000000000000000000006 /* CapturrWatchWidgetsExtension.appex */,
+				CB1000000000000000000001 /* CapturrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB0000000000000000000007 /* CapturrWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB000000000000000000000D /* Build configuration list for PBXNativeTarget "CapturrWatch" */;
+			buildPhases = (
+				AB0000000000000000000008 /* Sources */,
+				AB0000000000000000000009 /* Frameworks */,
+				AB000000000000000000000A /* Resources */,
+				AC0000000000000000000005 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC000000000000000000000D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AB0000000000000000000005 /* CapturrWatch */,
+			);
+			name = CapturrWatch;
+			packageProductDependencies = (
+			);
+			productName = CapturrWatch;
+			productReference = AB0000000000000000000004 /* CapturrWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC000000000000000000000A /* CapturrWatchWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0000000000000000000010 /* Build configuration list for PBXNativeTarget "CapturrWatchWidgetsExtension" */;
+			buildPhases = (
+				AC000000000000000000000B /* Sources */,
+				AC0000000000000000000009 /* Frameworks */,
+				AC000000000000000000000C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AC0000000000000000000008 /* CapturrWatchWidgets */,
+			);
+			name = CapturrWatchWidgetsExtension;
+			packageProductDependencies = (
+			);
+			productName = CapturrWatchWidgetsExtension;
+			productReference = AC0000000000000000000006 /* CapturrWatchWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CB1000000000000000000004 /* CapturrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB100000000000000000000B /* Build configuration list for PBXNativeTarget "CapturrTests" */;
+			buildPhases = (
+				CB1000000000000000000005 /* Sources */,
+				CB1000000000000000000006 /* Frameworks */,
+				CB1000000000000000000007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB1000000000000000000008 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CB1000000000000000000003 /* CapturrTests */,
+			);
+			name = CapturrTests;
+			packageProductDependencies = (
+			);
+			productName = CapturrTests;
+			productReference = CB1000000000000000000001 /* CapturrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA96686F2EA5656F00B2A928 /* CapturrWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9668832EA5657000B2A928 /* Build configuration list for PBXNativeTarget "CapturrWidgetsExtension" */;
+			buildPhases = (
+				DA96686C2EA5656F00B2A928 /* Sources */,
+				DA96686D2EA5656F00B2A928 /* Frameworks */,
+				DA96686E2EA5656F00B2A928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DA9668762EA5656F00B2A928 /* CapturrWidgets */,
+			);
+			name = CapturrWidgetsExtension;
+			packageProductDependencies = (
+			);
+			productName = CapturrWidgetsExtension;
+			productReference = DA9668702EA5656F00B2A928 /* CapturrWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DAF252632E7C65790047BCD0 /* Sharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF252722E7C65790047BCD0 /* Build configuration list for PBXNativeTarget "Sharing" */;
+			buildPhases = (
+				DAF252602E7C65790047BCD0 /* Sources */,
+				DAF252612E7C65790047BCD0 /* Frameworks */,
+				DAF252622E7C65790047BCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DAF252652E7C65790047BCD0 /* Sharing */,
+			);
+			name = Sharing;
+			packageProductDependencies = (
+			);
+			productName = Sharing;
+			productReference = DAF252642E7C65790047BCD0 /* Sharing.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DAF4A93F2E602AC20001D672 /* Capturr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF4A94B2E602AC30001D672 /* Build configuration list for PBXNativeTarget "Capturr" */;
+			buildPhases = (
+				DAF4A93C2E602AC20001D672 /* Sources */,
+				DAF4A93D2E602AC20001D672 /* Frameworks */,
+				DAF4A93E2E602AC20001D672 /* Resources */,
+				DAF2526F2E7C65790047BCD0 /* Embed Foundation Extensions */,
+				AB0000000000000000000003 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF2526D2E7C65790047BCD0 /* PBXTargetDependency */,
+				DA9668812EA5657000B2A928 /* PBXTargetDependency */,
+				AB000000000000000000000B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DAF4A9422E602AC20001D672 /* Capturr */,
+			);
+			name = Capturr;
+			packageProductDependencies = (
+			);
+			productName = Capturr;
+			productReference = DAF4A9402E602AC20001D672 /* Capturr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF4A9382E602AC20001D672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					AB0000000000000000000007 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					AC000000000000000000000A = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					CB1000000000000000000004 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = DAF4A93F2E602AC20001D672;
+					};
+					DA96686F2EA5656F00B2A928 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					DAF252632E7C65790047BCD0 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					DAF4A93F2E602AC20001D672 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = DAF4A93B2E602AC20001D672 /* Build configuration list for PBXProject "Capturr" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF4A9372E602AC20001D672;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DAF4A9412E602AC20001D672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF4A93F2E602AC20001D672 /* Capturr */,
+				DAF252632E7C65790047BCD0 /* Sharing */,
+				DA96686F2EA5656F00B2A928 /* CapturrWidgetsExtension */,
+				AB0000000000000000000007 /* CapturrWatch */,
+				AC000000000000000000000A /* CapturrWatchWidgetsExtension */,
+				CB1000000000000000000004 /* CapturrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB000000000000000000000A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0000000000000000000010 /* CapturrIcon.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC000000000000000000000C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1000000000000000000007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA96686E2EA5656F00B2A928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF252622E7C65790047BCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF4A93E2E602AC20001D672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF2528B2E7EE32C0047BCD0 /* CapturrIcon.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB0000000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC000000000000000000000B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA96686C2EA5656F00B2A928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF252602E7C65790047BCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF4A93C2E602AC20001D672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB000000000000000000000B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB0000000000000000000007 /* CapturrWatch */;
+			targetProxy = AB0000000000000000000002 /* PBXContainerItemProxy */;
+		};
+		AC000000000000000000000D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC000000000000000000000A /* CapturrWatchWidgetsExtension */;
+			targetProxy = AC0000000000000000000004 /* PBXContainerItemProxy */;
+		};
+		CB1000000000000000000008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF4A93F2E602AC20001D672 /* Capturr */;
+			targetProxy = CB1000000000000000000002 /* PBXContainerItemProxy */;
+		};
+		DA9668812EA5657000B2A928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA96686F2EA5656F00B2A928 /* CapturrWidgetsExtension */;
+			targetProxy = DA9668802EA5657000B2A928 /* PBXContainerItemProxy */;
+		};
+		DAF2526D2E7C65790047BCD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF252632E7C65790047BCD0 /* Sharing */;
+			targetProxy = DAF2526C2E7C65790047BCD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB000000000000000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = CapturrIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCJHX8WFTT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CapturrWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CAPTURR;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "CAPTURR records voice memos on your watch and transcribes them on your iPhone";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.pg.Capturr;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(MARKETING_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pg.Capturr.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		AB000000000000000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = CapturrIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCJHX8WFTT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CapturrWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CAPTURR;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "CAPTURR records voice memos on your watch and transcribes them on your iPhone";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.pg.Capturr;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(MARKETING_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pg.Capturr.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		AC000000000000000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCJHX8WFTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CapturrWatchWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CAPTURR;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = "$(MARKETING_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pg.Capturr.watchkitapp.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		AC000000000000000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCJHX8WFTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CapturrWatchWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CAPTURR;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = "$(MARKETING_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pg.Capturr.watchkitapp.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		CB1000000000000000000009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCJHX8WFTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pg.CapturrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capturr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Capturr";
+				TEST_TARGET_NAME = Capturr;
+			};
+			name = Debug;
+		};
+		CB100000000000000000000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCJHX8WFTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pg.CapturrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capturr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Capturr";
+				TEST_TARGET_NAME = Capturr;
+			};
+			name = Release;
+		};
+		DA9668842EA5657000B2A928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCJHX8WFTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CapturrWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CapturrWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = "$(MARKETING_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pg.Capturr.CapturrWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DA9668852EA5657000B2A928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCJHX8WFTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CapturrWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CapturrWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = "$(MARKETING_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pg.Capturr.CapturrWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DAF252702E7C65790047BCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Sharing/Sharing.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DEVELOPMENT_TEAM = SCJHX8WFTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sharing/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Sharing;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = "$(MARKETING_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pg.Capturr.Sharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DAF252712E7C65790047BCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Sharing/Sharing.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DEVELOPMENT_TEAM = SCJHX8WFTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sharing/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Sharing;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = "$(MARKETING_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pg.Capturr.Sharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DAF4A9492E602AC30001D672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SCJHX8WFTT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 2.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAF4A94A2E602AC30001D672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SCJHX8WFTT;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 2.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF4A94C2E602AC30001D672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = CapturrIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Capturr/Capturr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCJHX8WFTT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Capturr/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CAPTURR;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera in order to scan documents";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to the microphone to record voice memos";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Allows us to transcribe voice recordings before sending to your Roam graph";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(MARKETING_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pg.Capturr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DAF4A94D2E602AC30001D672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = CapturrIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Capturr/Capturr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCJHX8WFTT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Capturr/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CAPTURR;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera in order to scan documents";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to the microphone to record voice memos";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Allows us to transcribe voice recordings before sending to your Roam graph";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(MARKETING_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pg.Capturr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB000000000000000000000D /* Build configuration list for PBXNativeTarget "CapturrWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB000000000000000000000E /* Debug */,
+				AB000000000000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0000000000000000000010 /* Build configuration list for PBXNativeTarget "CapturrWatchWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC000000000000000000000E /* Debug */,
+				AC000000000000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB100000000000000000000B /* Build configuration list for PBXNativeTarget "CapturrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1000000000000000000009 /* Debug */,
+				CB100000000000000000000A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9668832EA5657000B2A928 /* Build configuration list for PBXNativeTarget "CapturrWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9668842EA5657000B2A928 /* Debug */,
+				DA9668852EA5657000B2A928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF252722E7C65790047BCD0 /* Build configuration list for PBXNativeTarget "Sharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF252702E7C65790047BCD0 /* Debug */,
+				DAF252712E7C65790047BCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF4A93B2E602AC20001D672 /* Build configuration list for PBXProject "Capturr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF4A9492E602AC30001D672 /* Debug */,
+				DAF4A94A2E602AC30001D672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF4A94B2E602AC30001D672 /* Build configuration list for PBXNativeTarget "Capturr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF4A94C2E602AC30001D672 /* Debug */,
+				DAF4A94D2E602AC30001D672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAF4A9382E602AC20001D672 /* Project object */;
+}

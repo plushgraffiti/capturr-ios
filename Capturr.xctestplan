@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "CB100000-0000-0000-0000-00000000000C",
+      "name" : "Default",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Capturr.xcodeproj",
+      "identifier" : "DAF4A93F2E602AC20001D672",
+      "name" : "Capturr"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:Capturr.xcodeproj",
+        "identifier" : "CB1000000000000000000004",
+        "name" : "CapturrTests"
+      }
+    }
+  ],
+  "version" : 1
+}
