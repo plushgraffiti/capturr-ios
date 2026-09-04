@@ -17,6 +17,8 @@
 		DA9668822EA5657000B2A928 /* CapturrWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DA9668702EA5656F00B2A928 /* CapturrWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DAF2526E2E7C65790047BCD0 /* Sharing.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DAF252642E7C65790047BCD0 /* Sharing.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DAF2528B2E7EE32C0047BCD0 /* CapturrIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = DAF2528A2E7EE32C0047BCD0 /* CapturrIcon.icon */; };
+		EE0000000000000000000002 /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000001 /* AppIntents.framework */; };
+		EE0000000000000000000003 /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0000000000000000000001 /* AppIntents.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,7 @@
 		DAF252642E7C65790047BCD0 /* Sharing.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Sharing.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF2528A2E7EE32C0047BCD0 /* CapturrIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = CapturrIcon.icon; sourceTree = "<group>"; };
 		DAF4A9402E602AC20001D672 /* Capturr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capturr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0000000000000000000001 /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = System/Library/Frameworks/AppIntents.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -211,6 +214,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				/* Explicit link prevents Xcode's bundle-wide metadata extractor from reporting a false missing-dependency warning. */
+				EE0000000000000000000003 /* AppIntents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +248,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				/* Explicit link prevents Xcode's bundle-wide metadata extractor from reporting a false missing-dependency warning. */
+				EE0000000000000000000002 /* AppIntents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +266,7 @@
 		DA9668712EA5656F00B2A928 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE0000000000000000000001 /* AppIntents.framework */,
 				DA9668722EA5656F00B2A928 /* WidgetKit.framework */,
 				DA9668742EA5656F00B2A928 /* SwiftUI.framework */,
 			);
