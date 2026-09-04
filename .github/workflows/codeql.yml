@@ -1,14 +1,14 @@
 name: "CodeQL"
 
 on:
-  push:
-    branches:
-      - main
-      - release
   pull_request:
     branches:
       - main
       - release
+    paths:
+      - "**/*.swift"
+      - "Capturr.xcodeproj/**" 
+      - ".github/workflows/codeql.yml"
   schedule:
     - cron: "23 6 * * 1"
   workflow_dispatch:
@@ -42,11 +42,12 @@ jobs:
           xcodebuild \
             -project Capturr.xcodeproj \
             -scheme Capturr \
-            -configuration Release \
+            -configuration Debug \
             -destination 'generic/platform=iOS' \
             -derivedDataPath "$RUNNER_TEMP/CapturrCodeQLDerivedData" \
             CODE_SIGNING_ALLOWED=NO \
-            clean build
+            COMPILER_INDEX_STORE_ENABLE=NO \
+            build
 
       - name: Perform CodeQL analysis
         uses: github/codeql-action/analyze@v4
