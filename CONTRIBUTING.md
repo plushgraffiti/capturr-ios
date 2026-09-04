@@ -36,6 +36,12 @@ CAPTURR is not accepting external code contributions or pull requests at this ti
 
 You may still inspect, fork, modify, and redistribute the source code under the terms of the [GNU General Public License v3.0](LICENSE). This contribution policy only describes what is accepted into the official CAPTURR repository; it does not change the rights granted by the licence.
 
+## Testing policy
+
+Major new functionality must include automated tests for its testable behaviour. When functionality depends on hardware or system interfaces that cannot reasonably be automated—such as the camera, microphone, Apple Watch, or share sheet—automated tests should cover the separable logic, and the remaining manual validation must be recorded.
+
+Bug fixes should include a regression test where practical. All existing automated tests must pass before a release.
+
 ## Support and responses
 
 GitHub Issues are the public channel for CAPTURR bug reports and feature requests, but they are not a guaranteed support service. Response and resolution times will vary, and issues may be closed when they cannot be reproduced, are outside the scope of CAPTURR, or are not planned.
