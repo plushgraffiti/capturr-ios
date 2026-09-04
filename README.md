@@ -1,5 +1,6 @@
 # CAPTURR
 
+
 [![GitHub Release](https://img.shields.io/github/v/release/plushgraffiti/capturr-ios)](https://github.com/plushgraffiti/capturr-ios/releases/latest) 
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/plushgraffiti/capturr-ios/badge)](https://scorecard.dev/viewer/?uri=github.com/plushgraffiti/capturr-ios) 
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/14446/badge)](https://www.bestpractices.dev/projects/14446)
@@ -7,11 +8,11 @@
 
 CAPTURR is a native iOS quick-capture app for [Roam Research](https://roamresearch.com). It is designed for fast capture, reliable offline queuing, and deep integration with Apple devices.
 
-[Download the official CAPTURR app from the Apple App Store](https://apps.apple.com/us/app/capturr-for-roam-research/id6751626906).
-
 CAPTURR is free, has no analytics or tracking, and does not operate a developer backend. Information stays on your device unless it is sent to Roam Research as part of a feature you choose to use.
 
 CAPTURR is an independent application and is not affiliated with, endorsed by, or sponsored by Roam Research or Apple.
+
+<a href="https://apps.apple.com/us/app/capturr-for-roam-research/id6751626906"><img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1756771200" alt="Download on the App Store" style="width: 183px; height: 61px; vertical-align: middle; object-fit: contain;" /></a>
 
 ## Features
 
