@@ -7,11 +7,11 @@
 
 CAPTURR is a native iOS quick-capture app for [Roam Research](https://roamresearch.com). It is designed for fast capture, reliable offline queuing, and deep integration with Apple devices.
 
-[Download the official CAPTURR app from the Apple App Store](https://apps.apple.com/us/app/capturr-for-roam-research/id6751626906).
-
 CAPTURR is free, has no analytics or tracking, and does not operate a developer backend. Information stays on your device unless it is sent to Roam Research as part of a feature you choose to use.
 
 CAPTURR is an independent application and is not affiliated with, endorsed by, or sponsored by Roam Research or Apple.
+
+<a href="https://apps.apple.com/us/app/capturr-for-roam-research/id6751626906"><img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1756771200" alt="Download on the App Store" /></a>
 
 ## Features
 
@@ -132,6 +132,9 @@ Bug reports and feature requests are welcome through [GitHub Issues](https://git
 External code contributions and pull requests are not currently accepted. See [CONTRIBUTING.md](CONTRIBUTING.md) for the complete policy.
 
 ## Version history
+
+### v2.0.1
+- Bug fix for certain local language audio transcription from Apple Watch
 
 ### v2.0
 
