@@ -17,10 +17,11 @@ enum FileTranscriptionService {
     static func transcribe(
         url: URL,
         localeTag: String,
-        progress: @escaping ProgressHandler = { _ in }
+        presetOverride: DictationTranscriber.Preset? = nil,
+        progress overallProgress: @escaping ProgressHandler = { _ in }
     ) async throws -> String {
         try Task.checkCancellation()
-        progress(0)
+        if presetOverride == nil { overallProgress(0) }
 
         let audioFile: AVAudioFile
         do {
@@ -44,9 +45,15 @@ enum FileTranscriptionService {
         }
         let duration = Double(audioFile.length) / sampleRate
         let locale = Locale(identifier: localeTag)
+        let isShortFirstPass = presetOverride == nil && duration <= 60
+        let progressOffset = presetOverride == nil ? 0 : 0.475
+        let progressScale = duration <= 60 ? 0.5 : 1
+        let progress: ProgressHandler = { fraction in
+            overallProgress(progressOffset + (min(max(fraction, 0), 0.95) * progressScale))
+        }
         let transcriber = DictationTranscriber(
             locale: locale,
-            preset: preset(forDuration: duration)
+            preset: presetOverride ?? preset(forDuration: duration)
         )
 
         // Same asset-install dance as VoiceInput.ensureDictationModelInstalled —
@@ -114,6 +121,7 @@ enum FileTranscriptionService {
         }
 
         var stage = "opening audio file"
+        let transcript: String
         let formatDescription = "file=\(audioFile.fileFormat), processing=\(audioFile.processingFormat), frames=\(audioFile.length)"
         do {
             try Task.checkCancellation()
@@ -128,10 +136,9 @@ enum FileTranscriptionService {
 
             try Task.checkCancellation()
             stage = "collecting transcription results"
-            let transcript = try await resultTask.value
+            transcript = try await resultTask.value
             try Task.checkCancellation()
             progress(0.95)
-            return transcript
         } catch is CancellationError {
             resultTask.cancel()
             await analyzer.cancelAndFinishNow()
@@ -149,6 +156,17 @@ enum FileTranscriptionService {
             logger.error("File transcription failed during \(stage, privacy: .public); file=\(url.lastPathComponent, privacy: .public), bytes=\(fileSize), \(formatDescription, privacy: .public), error=\(nsError.domain, privacy: .public) \(nsError.code): \(nsError.localizedDescription, privacy: .public)")
             throw FileTranscriptionFailure(stage: stage, underlying: nsError)
         }
+
+        if transcript.isEmpty, isShortFirstPass {
+            return try await transcribe(
+                url: url,
+                localeTag: localeTag,
+                presetOverride: .longDictation,
+                progress: overallProgress
+            )
+        }
+        if isShortFirstPass { overallProgress(0.95) }
+        return transcript
     }
 
     // Apple recommends the short preset through one minute and the long

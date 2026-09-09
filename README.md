@@ -1,12 +1,17 @@
 # CAPTURR
 
-CAPTURR is a native iOS quick-capture app for [Roam Research](https://roamresearch.com). It is designed for fast capture, reliable offline queuing, and deep integration with Apple devices.
+[![GitHub Release](https://img.shields.io/github/v/release/plushgraffiti/capturr-ios)](https://github.com/plushgraffiti/capturr-ios/releases/latest) 
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/plushgraffiti/capturr-ios/badge)](https://scorecard.dev/viewer/?uri=github.com/plushgraffiti/capturr-ios) 
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/14446/badge)](https://www.bestpractices.dev/projects/14446)
+[![CodeQL](https://github.com/plushgraffiti/capturr-ios/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/plushgraffiti/capturr-ios/actions/workflows/codeql.yml) 
 
-[Download the official CAPTURR app from the Apple App Store](https://apps.apple.com/us/app/capturr-for-roam-research/id6751626906).
+CAPTURR is a native iOS quick-capture app for [Roam Research](https://roamresearch.com). It is designed for fast capture, reliable offline queuing, and deep integration with Apple devices.
 
 CAPTURR is free, has no analytics or tracking, and does not operate a developer backend. Information stays on your device unless it is sent to Roam Research as part of a feature you choose to use.
 
 CAPTURR is an independent application and is not affiliated with, endorsed by, or sponsored by Roam Research or Apple.
+
+<a href="https://apps.apple.com/us/app/capturr-for-roam-research/id6751626906"><img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1756771200" alt="Download on the App Store" /></a>
 
 ## Features
 
@@ -127,6 +132,9 @@ Bug reports and feature requests are welcome through [GitHub Issues](https://git
 External code contributions and pull requests are not currently accepted. See [CONTRIBUTING.md](CONTRIBUTING.md) for the complete policy.
 
 ## Version history
+
+### v2.0.1
+- Bug fix for certain local language audio transcription from Apple Watch
 
 ### v2.0
 
