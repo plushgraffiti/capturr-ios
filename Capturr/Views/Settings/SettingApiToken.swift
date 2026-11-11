@@ -4,6 +4,7 @@
 /// credential changes.
 
 import SwiftUI
+import SwiftData
 
 struct SettingApiToken: View {
     @Environment(\.modelContext) private var context

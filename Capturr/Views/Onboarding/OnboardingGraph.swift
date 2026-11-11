@@ -4,6 +4,7 @@
 /// the parent flow to advance to API-token setup.
 
 import SwiftUI
+import SwiftData
 
 struct OnboardingGraph: View {
     @Environment(\.modelContext) private var context

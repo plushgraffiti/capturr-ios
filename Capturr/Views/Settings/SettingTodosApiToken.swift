@@ -4,6 +4,7 @@
 /// profile and the append-only capture token.
 
 import SwiftUI
+import SwiftData
 
 struct SettingTodosApiToken: View {
     @Environment(\.modelContext) private var context

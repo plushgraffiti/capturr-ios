@@ -4,6 +4,7 @@
 /// capture supplies its own tags.
 
 import SwiftUI
+import SwiftData
 
 struct SettingTag: View {
     @Environment(\.modelContext) private var context

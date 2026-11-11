@@ -4,6 +4,7 @@
 /// before asking the parent flow to advance.
 
 import SwiftUI
+import SwiftData
 
 struct OnboardingToken: View {
     @Environment(\.modelContext) private var context

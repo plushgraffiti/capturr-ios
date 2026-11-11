@@ -4,6 +4,7 @@
 /// formatting when it prepares notes and TODOs for Roam.
 
 import SwiftUI
+import SwiftData
 
 struct SettingTimestamps: View {
     @Environment(\.modelContext) private var context

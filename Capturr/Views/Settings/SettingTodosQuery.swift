@@ -4,6 +4,7 @@
 /// synchronization and refresh logic.
 
 import SwiftUI
+import SwiftData
 
 struct SettingTodosQuery: View {
     @Environment(\.modelContext) private var context

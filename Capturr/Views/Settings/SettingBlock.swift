@@ -4,6 +4,7 @@
 /// the block tree sent to Roam.
 
 import SwiftUI
+import SwiftData
 
 struct SettingBlock: View {
     @Environment(\.modelContext) private var context
