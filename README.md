@@ -112,7 +112,7 @@ xcodebuild \
     build
 ```
 
-Run the unit tests from Xcode with **Product → Test** using the `Capturr` scheme and an installed iOS 26 simulator.
+Run the unit tests from Xcode with **Product → Test** using the `Capturr` scheme and an installed iOS 26+ simulator.
 
 ## Project structure
 
