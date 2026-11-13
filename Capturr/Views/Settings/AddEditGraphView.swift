@@ -4,6 +4,7 @@
 /// each graph's token in the Keychain through `CredentialsManager`.
 
 import SwiftUI
+import SwiftData
 
 struct AddEditGraphView: View {
     // MARK: - State

@@ -88,7 +88,7 @@ struct HistoryHome: View {
     // MARK: - Screen Layout
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List(items) { item in
                 DisclosureGroup(
                     isExpanded: Binding(

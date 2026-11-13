@@ -4,6 +4,7 @@
 /// then applied by `ContentView` to the whole app.
 
 import SwiftUI
+import SwiftData
 import OSLog
 
 private let logger = Logger(category: "Settings")

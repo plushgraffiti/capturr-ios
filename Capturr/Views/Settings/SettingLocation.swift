@@ -4,6 +4,7 @@
 /// when a capture does not provide its own page override.
 
 import SwiftUI
+import SwiftData
 
 struct SettingLocation: View {
     @Environment(\.modelContext) private var context

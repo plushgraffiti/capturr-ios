@@ -4,6 +4,7 @@
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/plushgraffiti/capturr-ios/badge)](https://scorecard.dev/viewer/?uri=github.com/plushgraffiti/capturr-ios) 
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/14446/badge)](https://www.bestpractices.dev/projects/14446)
 [![CodeQL](https://github.com/plushgraffiti/capturr-ios/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/plushgraffiti/capturr-ios/actions/workflows/codeql.yml) 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/plushgraffiti/capturr-ios)
 
 CAPTURR is a native iOS quick-capture app for [Roam Research](https://roamresearch.com). It is designed for fast capture, reliable offline queuing, and deep integration with Apple devices.
 
@@ -87,7 +88,7 @@ To build CAPTURR:
    - `Sharing/Sharing.entitlements`
    - `Capturr/Services/Support/Constants.swift`
 5. Enable the same App Group for both the `Capturr` and `Sharing` targets.
-6. Select the shared `Capturr` scheme and run it on an iOS 26 simulator or device.
+6. Select the shared `Capturr` scheme and run it on an iOS 26+ simulator or device.
 
 The repository contains the following application and extension targets:
 
@@ -111,7 +112,7 @@ xcodebuild \
     build
 ```
 
-Run the unit tests from Xcode with **Product → Test** using the `Capturr` scheme and an installed iOS 26 simulator.
+Run the unit tests from Xcode with **Product → Test** using the `Capturr` scheme and an installed iOS 26+ simulator.
 
 ## Project structure
 
@@ -132,6 +133,10 @@ Bug reports and feature requests are welcome through [GitHub Issues](https://git
 External code contributions and pull requests are not currently accepted. See [CONTRIBUTING.md](CONTRIBUTING.md) for the complete policy.
 
 ## Version history
+
+### v2.1
+- Support for iPhone Duo and iOS 27
+- Various minor bug fixes
 
 ### v2.0.1
 - Bug fix for certain local language audio transcription from Apple Watch

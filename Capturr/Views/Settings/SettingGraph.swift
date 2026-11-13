@@ -4,6 +4,7 @@
 /// captures are routed to the primary graph.
 
 import SwiftUI
+import SwiftData
 
 struct SettingGraph: View {
     @Environment(\.modelContext) private var context

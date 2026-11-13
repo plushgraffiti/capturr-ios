@@ -4,6 +4,7 @@
 /// capture reuses the last selected graph.
 
 import SwiftUI
+import SwiftData
 
 struct ManageGraphsView: View {
     @Environment(\.modelContext) private var context
